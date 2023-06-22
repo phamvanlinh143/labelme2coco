@@ -37,7 +37,7 @@ def get_coco_from_labelme_folder(
         print(f"Will skip the following annotated labels: {skip_labels}")
 
     # parse labelme annotations
-    category_ind = 0
+    category_ind = 1
     for json_path in tqdm(
         labelme_json_list, "Converting labelme annotations to COCO format"
     ):

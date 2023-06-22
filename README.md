@@ -26,7 +26,7 @@ You can use this package to convert labelme annotations to COCO format.
 ## Getting started
 ### Installation
 ```
-pip install -U labelme2coco
+python -m pip install -U 'git+https://github.com/phamvanlinh143/labelme2coco.git'
 ```
 
 ### Basic Usage
